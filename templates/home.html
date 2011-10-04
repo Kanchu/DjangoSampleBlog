@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <h3>Home Page</h3>
+    <form action="add"method="get">
+    <p><input type="text"name="var1"></p>
+    <p><input type="text"name="var2"></p>
+    <p><input type="radio" name="opr" value="add" /> Addition</p>
+    <p><input type="radio" name="opr" value="sub" /> Subtract</p>
+    <p><input type="submit"value="Calculate"></p>
+
+
+    </form>
+{% endblock %}

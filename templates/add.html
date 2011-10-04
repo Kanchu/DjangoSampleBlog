@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<br>
+
+    {% if flag  %}
+        {% if opr == "add" %}
+            <h2>Addition of {{ num1 }} and {{ num2 }} is {{ res }}</h2>
+        {% else %}
+            <h2>Subtraction of {{ num1 }} and {{ num2 }} is {{ res }}</h2>
+        {% endif %}
+    {% else %}
+         <h2>{{ res }}</h2>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <form action="delete" method="get">
+        <p>Are you sure want to delete {{ id }}?</p>
+       <a href="{% url del_feed id %}">Delete</a> or <a href="{% url list_feedback %}">Cancel</a></p>
+    </form>
+{% endblock %}

@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title> Sample Django Application</title>
+</head>
+<body>
+    <h1>Welcome to sample Django Application</h1>
+
+    <a href="{% url home %}">Home</a> |
+    <a href="{% url feedback %}">Feedback</a> |
+    <a href="{% url list_feedback %}">View Feedbacks</a>
+    <a href="{% url detail 4 %}">Details</a>
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block content %}
+{% for i in obj %}
+    {% if i.id == id1 %}
+        <p>Name : <b>{{ i.name }}</b></p>
+        <p>Feedback : <b>{{ i.feedback }}</b></p>
+        <a href="{% url delete id1 %}">Delete</a>
+    {% endif %}
+{% endfor %}
+
+
+
+{% endblock %}

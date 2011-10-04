@@ -1,0 +1,8 @@
+ {% extends 'index.html' %}
+
+{% block content %}
+
+    {% for i in list_feed %}
+        <li><a href="{% url detail i.id %}">{{ i.name }}</a>  |  {{ i.feedback }}</li><br>
+    {% endfor %}
+{% endblock %}

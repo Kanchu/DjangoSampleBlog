@@ -45,15 +45,6 @@ def feedback(request):
         post_save_redirect="list_feedback"
     )
 
-#def delete(id):
-#
-#    return delete_object(
-#        model=Blog,
-#        object_id=int(id),
-#        template_name='delete.html',
-#        template_object_name='feedback',
-#        post_delete_redirect="list_feedback"
-#    )
 
 def list_feedback(request):
     queryset=Blog.objects.all()

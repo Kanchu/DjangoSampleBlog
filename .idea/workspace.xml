@@ -27,28 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tests.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.24822696">
+            <state line="21" column="49" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="0" selection-end="189" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="31" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0">
+            <state line="42" column="0" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.4609929">
               <folding />
             </state>
           </provider>
@@ -63,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.py">
+      <file leaf-file-name="feedback.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/feedback.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="50" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0">
+            <state line="5" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -90,14 +81,14 @@
         <option value="$PROJECT_DIR$/templates/delete.html" />
         <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/first/tests.py" />
         <option value="$PROJECT_DIR$/first/models.py" />
         <option value="$PROJECT_DIR$/first/views.py" />
         <option value="$PROJECT_DIR$/models.py" />
-        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/views.py" />
       </list>
     </option>
   </component>
@@ -151,6 +142,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,16 +389,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="-3.125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="369" selection-end="369" vertical-scroll-proportion="0.22203948" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/list_feedback.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="39" selection-start="118" selection-end="118" vertical-scroll-proportion="0.11904762" />
@@ -411,11 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="285" selection-end="285" vertical-scroll-proportion="0.21551724" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="45" selection-start="186" selection-end="186" vertical-scroll-proportion="0.098425195" />
@@ -431,13 +421,6 @@
         <state line="46" column="50" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="21" selection-start="0" selection-end="189" vertical-scroll-proportion="0.0">
@@ -445,16 +428,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="31" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="285" selection-end="285" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.24822696">
+        <state line="21" column="49" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="-3.125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.4609929">
           <folding />
         </state>
       </provider>
